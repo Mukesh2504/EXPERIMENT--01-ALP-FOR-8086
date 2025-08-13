@@ -78,16 +78,46 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```nasm
+org 100h
 
+mov ax, 4535h
+mov bx, 733fh
+add ax,bx  
 
-
+ret
+```
 ## Output  
- 
+<img width="820" height="487" alt="Screenshot 2025-08-13 091647" src="https://github.com/user-attachments/assets/dd77caa1-5078-48d0-9061-49c35333f325" />
+<img width="636" height="337" alt="image" src="https://github.com/user-attachments/assets/faabbd0e-6089-47b0-bf74-67fa571540c9" />
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
+```nasm
+org 100h
+
+mov ax, 4535h
+mov bx, 733fh
+sub ax,bx  
+
+ret
+```
+## Output 
+<img width="636" height="337" alt="Screenshot 2025-08-13 092000" src="https://github.com/user-attachments/assets/ff937b30-914a-4da8-bab7-094b19898da9" />
+<img width="820" height="487" alt="image" src="https://github.com/user-attachments/assets/818ee1d4-df73-48a5-b0bd-43df83975325" />
+
 ## Multiplication alp 
+```nasm
+org 100h
+
+mov ax, 3h
+mov bx, 2h
+mul ax
+
+ret
+```
  ## Output  
+ <img width="636" height="337" alt="image" src="https://github.com/user-attachments/assets/46170837-6775-4bce-845b-92a8c04d1d92" />
+ <img width="708" height="545" alt="image" src="https://github.com/user-attachments/assets/9538aa5c-8e7c-4486-9748-94831c3b65c0" />
 
 
 ## Division alp 
